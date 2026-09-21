@@ -1,0 +1,24 @@
+# Exclude source code and platform code
+lib/
+android/
+ios/
+windows/
+linux/
+macos/
+web/
+test/
+assets/
+prompt
+.dart_tool/
+.idea/
+.vscode/
+build/
+*.iml
+*.lock
+pubspec.yaml
+analysis_options.yaml
+.metadata
+.flutter-plugins*
+
+# Release unzipped folder (only keep the shareable zip and apk)
+release/MrDoctor_Windows/
