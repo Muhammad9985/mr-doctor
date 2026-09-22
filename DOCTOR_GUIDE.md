@@ -72,6 +72,12 @@ Mr Doctor is built with a dual-engine architecture optimized for **zero latency 
 4. Tap **Test Groq Connection** — you will see an immediate green confirmation badge: `Connection successful`.
 5. Tap **Save Configuration**.
 
+<p align="center">
+  <img src="docs/images/screen_settings.png" alt="Clinical AI Engine and Security Settings" width="340px" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <br/>
+  <em>Figure 1: Pre-configured Groq Cloud & Whisper Large v3 settings with local hardware encryption.</em>
+</p>
+
 ---
 
 ## 4. Mastering the Ambient Consultation Workflow
@@ -93,6 +99,12 @@ flowchart LR
 - Observe the real-time **audio waveform visualizer** to verify the microphone is capturing audio levels.
 - You can freely minimize or navigate the app — background capture remains uninterrupted.
 
+<p align="center">
+  <img src="docs/images/screen_encounter.png" alt="Mr Doctor - Ready for Clinical Encounter" width="340px" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <br/>
+  <em>Figure 2: Clinical Consultation Dashboard ready with Patient Identifier and AES-256 Vault.</em>
+</p>
+
 ### Step 3: Pausing When Needed
 - If you step out of the room, receive a private phone call, or the patient requests privacy, tap **Pause**.
 - Tap **Resume** the moment you re-enter.
@@ -104,11 +116,23 @@ flowchart LR
   2. *STT Transcription:* Groq Whisper Large v3 transcribes multi-lingual speech.
   3. *Clinical Structuring:* The LLM organizes findings into SOAP format.
 
+<p align="center">
+  <img src="docs/images/screen_recording_active.png" alt="Mr Doctor - Active Ambient Recording" width="340px" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <br/>
+  <em>Figure 3: Active Consultation Capture with live timer, waveform visualizer, and Pause/Synthesize controls.</em>
+</p>
+
 ### Step 5: Review & Note Editor
 - The **Note Editor** appears with side-by-side or tabbed views:
   - **Raw Transcript:** Inspect exactly what was spoken.
   - **Synthesized SOAP Note:** Rendered with clean clinical headings, diagnostic codes, and dosage schedules.
 - Tap **Copy to Clipboard** to paste directly into your hospital EHR.
+
+<p align="center">
+  <img src="docs/images/screen_note_editor.png" alt="Mr Doctor - Structured SOAP Note Editor" width="340px" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <br/>
+  <em>Figure 4: Synthesized SOAP Note Editor with structured cards, markdown toggle, and direct EHR export.</em>
+</p>
 
 ---
 
@@ -217,6 +241,12 @@ Healthcare data security is built directly into Mr Doctor's source code:
    - **Windows:** Microsoft Windows DPAPI (Data Protection API) Credential Vault.
 4. **No Third-Party Data Training:**  
    API endpoints are called with zero-retention flags, ensuring patient transcripts are never used to train commercial foundation models.
+
+<p align="center">
+  <img src="docs/images/screen_vault.png" alt="AES-256 Encrypted Clinical Encounter Archive" width="340px" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <br/>
+  <em>Figure 5: Encrypted Encounter Archive — searchable on-device vault protected by military-grade AES-256.</em>
+</p>
 
 ---
 
