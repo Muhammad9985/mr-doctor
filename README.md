@@ -16,13 +16,14 @@
   <img src="docs/images/hero_banner.jpg" alt="Mr Doctor - AI Clinical Scribe Dashboard" width="100%" style="border-radius: 12px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);" />
 </p>
 
-[**Explore Releases**](https://github.com/Muhammad9985/mr-doctor/releases) • [**Download APK**](release/MrDoctor.apk) • [**Download Windows App**](release/MrDoctor_Windows.zip) • [**Developer Portfolio**](https://mr-software.online/)
+[**Explore Releases**](https://github.com/Muhammad9985/mr-doctor/releases) • [**Download APK**](release/MrDoctor.apk) • [**Download Windows App**](release/MrDoctor_Windows.zip) • [**📖 Doctor's Practice Guide**](DOCTOR_GUIDE.md) • [**Developer Portfolio**](https://mr-software.online/)
 
 </div>
 
 ---
 
 ## 📋 Table of Contents
+- [📖 Clinician's Handbook & Practice Guide](DOCTOR_GUIDE.md)
 - [Executive Overview](#-executive-overview)
 - [Why Mr Doctor? The Clinical Dilemma](#-why-mr-doctor-the-clinical-dilemma)
 - [Core Capabilities](#-core-capabilities)
@@ -45,7 +46,8 @@
 
 Within seconds of finishing an encounter, it synthesizes unedited spoken dialogue into a **board-certified, structured SOAP note** (Subjective, Objective, Assessment, Plan) with ICD-10 diagnostic precision, evidence-based treatment plans, and emergency precautions.
 
-> 🩺 **Primary Physician Benefit:** Saves an average of **2 to 3 hours per clinic day**, eliminating after-hours "pajama-time" EHR charting while restoring meaningful face-to-face eye contact with patients.
+> 🩺 **Primary Physician Benefit:** Saves an average of **2 to 3 hours per clinic day**, eliminating after-hours "pajama-time" EHR charting while restoring meaningful face-to-face eye contact with patients.  
+> 📖 **Complete Practice Guide:** For exam room acoustics, OLDCARTS verbalization techniques, and EHR clipboard integration, read the [**Clinician's Handbook & Practice Guide**](DOCTOR_GUIDE.md).
 
 ---
 
